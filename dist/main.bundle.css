@@ -1,0 +1,99 @@
+.page {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #151c22;
+    background-color: #ffffff;
+
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    display: inline-block;
+    height: 57px;
+    line-height: 57px;
+    text-align: center;
+    width: 100%;
+}
+.header__title {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.banner {
+    background-color: #f1f2f4;
+    padding: 30px 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+.banner__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.banner__item {
+    padding: 0px;
+    margin: 0px;
+}
+.banner__item_moto {
+    color: #727a82;
+    font-size: 1.125rem;
+    font-weight: normal;
+}
+.banner__row>.banner__item_right {
+    margin-left: auto;
+}
+.banner__item_title {
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 5.375rem;
+    /*vertical-align:top doesn't work as it's already 1 line text*/
+    position: relative;
+    top: -15px;
+}
+.landing-img-main_main {
+    width: 202px;
+    height: 249px;
+    background-image: url(/landing-img-main/_main/banner_img.jpg);
+}
+.menu {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.menu__item {
+    padding-right: 25px;
+}
+
+.menu_horizontal .menu__item {
+    display: inline-block;
+}
+.menu-item {
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu-item:first-child {
+    padding-left: 0px;
+}
+
+.menu-item:last-child {
+    padding-right: 0px;
+}
+.menu-item_link {
+    color: #151c22;
+    text-decoration: none;
+}
+.button {
+    border: none;
+    background-color: #151c22;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.button_banner {
+    width: 204px;
+    height: 64px;
+}

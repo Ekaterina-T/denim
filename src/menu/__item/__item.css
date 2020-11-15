@@ -1,0 +1,7 @@
+.menu__item {
+    padding-right: 25px;
+}
+
+.menu_horizontal .menu__item {
+    display: inline-block;
+}

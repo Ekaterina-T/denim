@@ -1,0 +1,8 @@
+.banner__item_title {
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 5.375rem;
+    /*vertical-align:top doesn't work as it's already 1 line text*/
+    position: relative;
+    top: -15px;
+}
