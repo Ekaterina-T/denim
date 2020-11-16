@@ -20,10 +20,13 @@
 }
 .banner {
     background-color: #f1f2f4;
-    padding: 30px 15px;
+    padding: 23px 15px 0px 15px;
 
     display: flex;
     flex-direction: column;
+}
+.banner__body {
+    padding: 35px 0px 50px 0px;
 }
 .banner__row {
     display: flex;
@@ -51,10 +54,43 @@
     position: relative;
     top: -15px;
 }
-.landing-img-main_main {
+.banner__img {
+    padding: 20px;
+    position: relative;
+}
+.banner__img_diagonal_ltr {
+    width: 109px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(assets/diagonal.png);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transform: scale(1, -1);
+}
+.banner__img_diagonal_rtl {
+    width: 109px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(assets/diagonal.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.banner__img_main {
     width: 202px;
     height: 249px;
-    background-image: url(/landing-img-main/_main/banner_img.jpg);
+    background-image: url(assets/banner_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -15px;
+    position: relative;
+    z-index: 1;
+}
+.banner__text {
+    padding-top: 30px;
 }
 .menu {
     margin: 0px;

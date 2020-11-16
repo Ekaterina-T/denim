@@ -11,6 +11,19 @@ var main;main =
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./banner/__img/__img.js":
+/*!*******************************!*\
+  !*** ./banner/__img/__img.js ***!
+  \*******************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _img_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./__img.css */ \"./banner/__img/__img.css\");\n/* harmony import */ var _diagonal_ltr_diagonal_ltr_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_diagonal_ltr/_diagonal_ltr.css */ \"./banner/__img/_diagonal_ltr/_diagonal_ltr.css\");\n/* harmony import */ var _diagonal_rtl_diagonal_rtl_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./_diagonal_rtl/_diagonal_rtl.css */ \"./banner/__img/_diagonal_rtl/_diagonal_rtl.css\");\n/* harmony import */ var _main_main_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./_main/_main.css */ \"./banner/__img/_main/_main.css\");\n;\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./banner/__img/__img.js?");
+
+/***/ }),
+
 /***/ "./banner/__item/__item.js":
 /*!*********************************!*\
   !*** ./banner/__item/__item.js ***!
@@ -33,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ite
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _banner_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./banner.css */ \"./banner/banner.css\");\n/* harmony import */ var _row_row_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./__row/__row.css */ \"./banner/__row/__row.css\");\n/* harmony import */ var _item_item_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./__item/__item.js */ \"./banner/__item/__item.js\");\n;\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./banner/banner.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _banner_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./banner.css */ \"./banner/banner.css\");\n/* harmony import */ var _body_body_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./__body/__body.css */ \"./banner/__body/__body.css\");\n/* harmony import */ var _row_row_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./__row/__row.css */ \"./banner/__row/__row.css\");\n/* harmony import */ var _item_item_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./__item/__item.js */ \"./banner/__item/__item.js\");\n/* harmony import */ var _img_img_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./__img/__img.js */ \"./banner/__img/__img.js\");\n/* harmony import */ var _text_text_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./__text/__text.css */ \"./banner/__text/__text.css\");\n;\n\n\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./banner/banner.js?");
 
 /***/ }),
 
@@ -63,19 +76,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hea
 
 /***/ }),
 
-/***/ "./landing-img-main/landing-img-main.js":
-/*!**********************************************!*\
-  !*** ./landing-img-main/landing-img-main.js ***!
-  \**********************************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _main_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_main/_main.css */ \"./landing-img-main/_main/_main.css\");\n;\n\n//# sourceURL=webpack://%5Bname%5D/./landing-img-main/landing-img-main.js?");
-
-/***/ }),
-
 /***/ "./main.js":
 /*!*****************!*\
   !*** ./main.js ***!
@@ -85,7 +85,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mai
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _page_page_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./page/page.js */ \"./page/page.js\");\n/* harmony import */ var _header_header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/header.js */ \"./header/header.js\");\n/* harmony import */ var _banner_banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./banner/banner.js */ \"./banner/banner.js\");\n/* harmony import */ var _landing_img_main_landing_img_main_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./landing-img-main/landing-img-main.js */ \"./landing-img-main/landing-img-main.js\");\n/* harmony import */ var _menu_menu_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu/menu.js */ \"./menu/menu.js\");\n/* harmony import */ var _menu_item_menu_item_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./menu-item/menu-item.js */ \"./menu-item/menu-item.js\");\n/* harmony import */ var _button_button_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./button/button.js */ \"./button/button.js\");\n;\n\n\n\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _page_page_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./page/page.js */ \"./page/page.js\");\n/* harmony import */ var _header_header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/header.js */ \"./header/header.js\");\n/* harmony import */ var _banner_banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./banner/banner.js */ \"./banner/banner.js\");\n/* harmony import */ var _banner_img_img_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./banner/__img/__img.js */ \"./banner/__img/__img.js\");\n/* harmony import */ var _menu_menu_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu/menu.js */ \"./menu/menu.js\");\n/* harmony import */ var _menu_item_menu_item_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./menu-item/menu-item.js */ \"./menu-item/menu-item.js\");\n/* harmony import */ var _button_button_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./button/button.js */ \"./button/button.js\");\n;\n\n\n\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./main.js?");
 
 /***/ }),
 
@@ -125,6 +125,71 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _men
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./page.css */ \"./page/page.css\");\n;\n\n//# sourceURL=webpack://%5Bname%5D/./page/page.js?");
+
+/***/ }),
+
+/***/ "./banner/__body/__body.css":
+/*!**********************************!*\
+  !*** ./banner/__body/__body.css ***!
+  \**********************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./banner/__body/__body.css?");
+
+/***/ }),
+
+/***/ "./banner/__img/__img.css":
+/*!********************************!*\
+  !*** ./banner/__img/__img.css ***!
+  \********************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./banner/__img/__img.css?");
+
+/***/ }),
+
+/***/ "./banner/__img/_diagonal_ltr/_diagonal_ltr.css":
+/*!******************************************************!*\
+  !*** ./banner/__img/_diagonal_ltr/_diagonal_ltr.css ***!
+  \******************************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./banner/__img/_diagonal_ltr/_diagonal_ltr.css?");
+
+/***/ }),
+
+/***/ "./banner/__img/_diagonal_rtl/_diagonal_rtl.css":
+/*!******************************************************!*\
+  !*** ./banner/__img/_diagonal_rtl/_diagonal_rtl.css ***!
+  \******************************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./banner/__img/_diagonal_rtl/_diagonal_rtl.css?");
+
+/***/ }),
+
+/***/ "./banner/__img/_main/_main.css":
+/*!**************************************!*\
+  !*** ./banner/__img/_main/_main.css ***!
+  \**************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./banner/__img/_main/_main.css?");
 
 /***/ }),
 
@@ -193,6 +258,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./banner/__text/__text.css":
+/*!**********************************!*\
+  !*** ./banner/__text/__text.css ***!
+  \**********************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./banner/__text/__text.css?");
+
+/***/ }),
+
 /***/ "./banner/banner.css":
 /*!***************************!*\
   !*** ./banner/banner.css ***!
@@ -255,19 +333,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./header/header.css?");
-
-/***/ }),
-
-/***/ "./landing-img-main/_main/_main.css":
-/*!******************************************!*\
-  !*** ./landing-img-main/_main/_main.css ***!
-  \******************************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./landing-img-main/_main/_main.css?");
 
 /***/ }),
 

@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const config = {
 
     mode: 'development',
-    watch: false,
+    watch: true,
     context: path.resolve(__dirname, 'src'),
 
     entry: {
@@ -15,7 +15,7 @@ const config = {
 
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '../src/assets/',
+        publicPath: '',
         filename: '[name].bundle.js',
         library: '[name]',
         environment: { arrowFunction: false}
@@ -51,11 +51,12 @@ const config = {
                 ]
             },
             {
-                test: /\.(png|jpg|jpeg|svg)$/i,
+                test: /\.(png|jpe?g|svg)$/i,
                 use: {
                     loader: 'file-loader',
                     options: {
-                        name: '[path][name].[ext]'
+                        name: '[name].[ext]',
+                        outputPath: 'assets'
                     }
                 }
             }

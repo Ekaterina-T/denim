@@ -1,3 +1,6 @@
 import './banner.css'
+import './__body/__body.css'
 import './__row/__row.css'
 import './__item/__item.js'
+import './__img/__img.js'
+import './__text/__text.css'

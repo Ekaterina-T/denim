@@ -1,0 +1,10 @@
+.banner__img_main {
+    width: 202px;
+    height: 249px;
+    background-image: url("banner_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -15px;
+    position: relative;
+    z-index: 1;
+}

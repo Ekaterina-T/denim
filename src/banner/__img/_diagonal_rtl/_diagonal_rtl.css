@@ -1,0 +1,10 @@
+.banner__img_diagonal_rtl {
+    width: 109px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../diagonal.png");
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
