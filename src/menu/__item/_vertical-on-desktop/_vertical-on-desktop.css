@@ -1,0 +1,10 @@
+@media screen and (min-width: 1366px) {
+    .menu_vertical-on-desktop .menu__item {
+        display: block;
+        padding-bottom: 35px;
+    }
+
+    .menu_vertical-on-desktop .menu__item:last-child {
+        padding-bottom: 0px;
+    }
+}

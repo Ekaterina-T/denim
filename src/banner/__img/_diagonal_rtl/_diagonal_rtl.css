@@ -8,3 +8,17 @@
     top: 0px;
     left: 0px;
 }
+
+@media screen and (min-width: 647px){
+    .banner__img_diagonal_rtl {
+        width: 141px;
+        height: 104px;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .banner__img_diagonal_rtl {
+        width: 232px;
+        height: 176px;
+    }
+}

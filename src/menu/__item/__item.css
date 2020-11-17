@@ -1,7 +1,18 @@
 .menu__item {
     padding-right: 25px;
+    cursor: pointer;
 }
 
-.menu_horizontal .menu__item {
-    display: inline-block;
+@media screen and (min-width: 647px){
+    .menu__item {
+        padding-right: 35px;
+    }
+}
+
+.menu__item:first-child {
+    padding-left: 0px;
+}
+
+.menu__item:last-child {
+    padding-right: 0px;
 }

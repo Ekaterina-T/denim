@@ -1,7 +1,28 @@
 .banner {
     background-color: #f1f2f4;
     padding: 23px 15px 0px 15px;
+    box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 500px){
+    .banner {
+        padding: 30px 15px;
+    }
+}
+
+@media screen and (min-width: 570px){
+    .banner {
+        padding: 45px;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .banner {
+        padding: 50px 98px;
+        position: relative;
+        height: 617px;
+    }
 }

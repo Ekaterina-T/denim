@@ -8,3 +8,17 @@
     position: relative;
     z-index: 1;
 }
+
+@media screen and (min-width: 647px){
+    .banner__img_main {
+        width: 264px;
+        height: 319px;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .banner__img_main {
+        width: 430px;
+        height: 517px;
+    }
+}

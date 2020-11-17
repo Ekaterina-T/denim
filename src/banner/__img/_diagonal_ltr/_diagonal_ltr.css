@@ -9,3 +9,17 @@
     right: 0px;
     transform: scale(1, -1);
 }
+
+@media screen and (min-width: 647px){
+    .banner__img_diagonal_ltr {
+        width: 141px;
+        height: 104px;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .banner__img_diagonal_ltr {
+        width: 232px;
+        height: 176px;
+    }
+}

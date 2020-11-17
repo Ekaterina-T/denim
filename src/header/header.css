@@ -5,3 +5,10 @@
     text-align: center;
     width: 100%;
 }
+
+@media screen and (min-width: 570px){
+    .header {
+        height: 67px;
+        line-height: 67px;
+    }
+}

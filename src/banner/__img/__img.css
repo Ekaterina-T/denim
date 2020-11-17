@@ -2,3 +2,15 @@
     padding: 20px;
     position: relative;
 }
+
+@media screen and (min-width: 647px){
+    .banner__img {
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .banner__img {
+        padding: 50px;
+    }
+}

@@ -1,0 +1,9 @@
+.banner_ground {
+    display: none;
+}
+
+@media screen and (min-width: 500px){
+    .banner_ground {
+        display: inherit;
+    }
+}
