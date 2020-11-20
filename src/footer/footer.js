@@ -1,0 +1,5 @@
+import './footer.css'
+import './__about/_about.css'
+import './__about-link/__about-link.css'
+import './__title/__title.css'
+import './__social/__social.css'

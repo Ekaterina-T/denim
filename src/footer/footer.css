@@ -1,0 +1,12 @@
+.footer {
+    background-color: #151c22;
+    color: #ffffff;
+    padding: 46px 0px 52px 15px;
+}
+
+
+@media screen and (min-width: 321px){
+    .footer {
+        padding: 50px 113px;
+    }
+}

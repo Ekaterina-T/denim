@@ -1,0 +1,10 @@
+.footer__social {
+    margin-top: 12px;
+}
+
+@media screen and (min-width: 321px) {
+    .footer__social {
+        margin-top: 40px;
+        text-align: center;
+    }
+}

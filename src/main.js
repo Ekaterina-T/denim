@@ -7,3 +7,5 @@ import './menu/menu.js'
 
 import './button/button.js'
 import './link/link.js'
+
+import './footer/footer'

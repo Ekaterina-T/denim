@@ -1,0 +1,12 @@
+.footer__about-link {
+    flex-basis: calc(20px + 1.5rem);
+    line-height: 1.5rem;
+}
+
+@media screen and (min-width: 321px){
+    .footer__about-link {
+        flex-basis: auto;
+        line-height: inherit;
+        flex-grow: 1;
+    }
+}

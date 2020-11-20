@@ -76,6 +76,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _but
 
 /***/ }),
 
+/***/ "./footer/footer.js":
+/*!**************************!*\
+  !*** ./footer/footer.js ***!
+  \**************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.css */ \"./footer/footer.css\");\n/* harmony import */ var _about_about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./__about/_about.css */ \"./footer/__about/_about.css\");\n/* harmony import */ var _about_link_about_link_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./__about-link/__about-link.css */ \"./footer/__about-link/__about-link.css\");\n/* harmony import */ var _title_title_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./__title/__title.css */ \"./footer/__title/__title.css\");\n/* harmony import */ var _social_social_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./__social/__social.css */ \"./footer/__social/__social.css\");\n;\n\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/footer.js?");
+
+/***/ }),
+
 /***/ "./header/header.js":
 /*!**************************!*\
   !*** ./header/header.js ***!
@@ -98,7 +111,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hea
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _link_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./link.css */ \"./link/link.css\");\n/* harmony import */ var _s_s_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_s/_s.css */ \"./link/_s/_s.css\");\n/* harmony import */ var _fb_fb_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./_fb/_fb.css */ \"./link/_fb/_fb.css\");\n;\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./link/link.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _link_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./link.css */ \"./link/link.css\");\n/* harmony import */ var _s_s_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_s/_s.css */ \"./link/_s/_s.css\");\n/* harmony import */ var _fb_fb_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./_fb/_fb.css */ \"./link/_fb/_fb.css\");\n/* harmony import */ var _footer_about_footer_about_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./_footer-about/_footer-about.css */ \"./link/_footer-about/_footer-about.css\");\n/* harmony import */ var _footer_title_footer_title_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./_footer-title/_footer-title.css */ \"./link/_footer-title/_footer-title.css\");\n;\n\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./link/link.js?");
 
 /***/ }),
 
@@ -111,7 +124,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lin
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _page_page_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./page/page.js */ \"./page/page.js\");\n/* harmony import */ var _header_header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/header.js */ \"./header/header.js\");\n/* harmony import */ var _banner_banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./banner/banner.js */ \"./banner/banner.js\");\n/* harmony import */ var _banner_img_img_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./banner/__img/__img.js */ \"./banner/__img/__img.js\");\n/* harmony import */ var _menu_menu_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu/menu.js */ \"./menu/menu.js\");\n/* harmony import */ var _button_button_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./button/button.js */ \"./button/button.js\");\n/* harmony import */ var _link_link_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./link/link.js */ \"./link/link.js\");\n;\n\n\n\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _page_page_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./page/page.js */ \"./page/page.js\");\n/* harmony import */ var _header_header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/header.js */ \"./header/header.js\");\n/* harmony import */ var _banner_banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./banner/banner.js */ \"./banner/banner.js\");\n/* harmony import */ var _banner_img_img_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./banner/__img/__img.js */ \"./banner/__img/__img.js\");\n/* harmony import */ var _menu_menu_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu/menu.js */ \"./menu/menu.js\");\n/* harmony import */ var _button_button_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./button/button.js */ \"./button/button.js\");\n/* harmony import */ var _link_link_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./link/link.js */ \"./link/link.js\");\n/* harmony import */ var _footer_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./footer/footer */ \"./footer/footer.js\");\n;\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./main.js?");
 
 /***/ }),
 
@@ -349,6 +362,71 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./footer/__about-link/__about-link.css":
+/*!**********************************************!*\
+  !*** ./footer/__about-link/__about-link.css ***!
+  \**********************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/__about-link/__about-link.css?");
+
+/***/ }),
+
+/***/ "./footer/__about/_about.css":
+/*!***********************************!*\
+  !*** ./footer/__about/_about.css ***!
+  \***********************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/__about/_about.css?");
+
+/***/ }),
+
+/***/ "./footer/__social/__social.css":
+/*!**************************************!*\
+  !*** ./footer/__social/__social.css ***!
+  \**************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/__social/__social.css?");
+
+/***/ }),
+
+/***/ "./footer/__title/__title.css":
+/*!************************************!*\
+  !*** ./footer/__title/__title.css ***!
+  \************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/__title/__title.css?");
+
+/***/ }),
+
+/***/ "./footer/footer.css":
+/*!***************************!*\
+  !*** ./footer/footer.css ***!
+  \***************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/footer.css?");
+
+/***/ }),
+
 /***/ "./header/__title/__title.css":
 /*!************************************!*\
   !*** ./header/__title/__title.css ***!
@@ -385,6 +463,32 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./link/_fb/_fb.css?");
+
+/***/ }),
+
+/***/ "./link/_footer-about/_footer-about.css":
+/*!**********************************************!*\
+  !*** ./link/_footer-about/_footer-about.css ***!
+  \**********************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./link/_footer-about/_footer-about.css?");
+
+/***/ }),
+
+/***/ "./link/_footer-title/_footer-title.css":
+/*!**********************************************!*\
+  !*** ./link/_footer-title/_footer-title.css ***!
+  \**********************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./link/_footer-title/_footer-title.css?");
 
 /***/ }),
 
