@@ -5,7 +5,7 @@
     height: calc(60px + 4.5rem); /* 30px for bottom padding + 1.5 rem - max font-size for __title */
 }
 
-@media screen and (min-width: 321px){
+@media screen and (min-width: 380px){
     .footer__about {
         flex-direction: row;
         height: auto;

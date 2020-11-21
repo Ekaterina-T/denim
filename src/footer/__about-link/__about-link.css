@@ -3,7 +3,7 @@
     line-height: 1.5rem;
 }
 
-@media screen and (min-width: 321px){
+@media screen and (min-width: 380px){
     .footer__about-link {
         flex-basis: auto;
         line-height: inherit;

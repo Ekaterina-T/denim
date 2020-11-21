@@ -85,7 +85,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _but
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.css */ \"./footer/footer.css\");\n/* harmony import */ var _about_about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./__about/_about.css */ \"./footer/__about/_about.css\");\n/* harmony import */ var _about_link_about_link_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./__about-link/__about-link.css */ \"./footer/__about-link/__about-link.css\");\n/* harmony import */ var _title_title_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./__title/__title.css */ \"./footer/__title/__title.css\");\n/* harmony import */ var _social_social_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./__social/__social.css */ \"./footer/__social/__social.css\");\n;\n\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.css */ \"./footer/footer.css\");\n/* harmony import */ var _about_about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./__about/_about.css */ \"./footer/__about/_about.css\");\n/* harmony import */ var _about_link_about_link_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./__about-link/__about-link.css */ \"./footer/__about-link/__about-link.css\");\n/* harmony import */ var _title_title_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./__title/__title.css */ \"./footer/__title/__title.css\");\n/* harmony import */ var _social_social_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./__social/__social.css */ \"./footer/__social/__social.css\");\n/* harmony import */ var _footer_about_link_desktop_desktop_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../footer/__about-link/_desktop/_desktop.css */ \"./footer/__about-link/_desktop/_desktop.css\");\n/* harmony import */ var _footer_about_link_mobile_mobile_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../footer/__about-link/_mobile/_mobile.css */ \"./footer/__about-link/_mobile/_mobile.css\");\n;\n\n\n\n\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/footer.js?");
 
 /***/ }),
 
@@ -372,6 +372,32 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/__about-link/__about-link.css?");
+
+/***/ }),
+
+/***/ "./footer/__about-link/_desktop/_desktop.css":
+/*!***************************************************!*\
+  !*** ./footer/__about-link/_desktop/_desktop.css ***!
+  \***************************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/__about-link/_desktop/_desktop.css?");
+
+/***/ }),
+
+/***/ "./footer/__about-link/_mobile/_mobile.css":
+/*!*************************************************!*\
+  !*** ./footer/__about-link/_mobile/_mobile.css ***!
+  \*************************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./footer/__about-link/_mobile/_mobile.css?");
 
 /***/ }),
 
