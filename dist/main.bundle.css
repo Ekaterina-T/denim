@@ -1,3 +1,20 @@
+.element_visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.text_footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+}
 .page {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
@@ -328,11 +345,6 @@
     font-size: 1.125rem;
     color: white;
 }
-.link_footer-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-}
 .footer {
     background-color: #151c22;
     color: #ffffff;
@@ -359,13 +371,13 @@
         text-align: center;
     }
 }
-.footer__about-link {
+.footer__about-item {
     flex-basis: calc(20px + 1.5rem);
     line-height: 1.5rem;
 }
 
 @media screen and (min-width: 380px){
-    .footer__about-link {
+    .footer__about-item {
         flex-basis: auto;
         line-height: inherit;
         flex-grow: 1;
@@ -387,22 +399,22 @@
         text-align: center;
     }
 }
-.footer__about-link_desktop {
+.footer__about-item_desktop {
     display: none;
 }
 
 @media screen and (min-width: 380px){
-    .footer__about-link_desktop {
+    .footer__about-item_desktop {
         display: initial;
     }
 }
 
-.footer__about-link_mobile {
+.footer__about-item_mobile {
     display: initial;
 }
 
 @media screen and (min-width: 380px){
-    .footer__about-link_mobile {
+    .footer__about-item_mobile {
         display: none;
     }
 }

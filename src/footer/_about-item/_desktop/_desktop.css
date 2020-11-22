@@ -1,9 +1,9 @@
-.footer__about-link_desktop {
+.footer__about-item_desktop {
     display: none;
 }
 
 @media screen and (min-width: 380px){
-    .footer__about-link_desktop {
+    .footer__about-item_desktop {
         display: initial;
     }
 }

@@ -1,0 +1,1 @@
+import './_footer-title/_footer-title.css'

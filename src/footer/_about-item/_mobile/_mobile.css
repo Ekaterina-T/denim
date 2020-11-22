@@ -1,9 +1,9 @@
-.footer__about-link_mobile {
+.footer__about-item_mobile {
     display: initial;
 }
 
 @media screen and (min-width: 380px){
-    .footer__about-link_mobile {
+    .footer__about-item_mobile {
         display: none;
     }
 }

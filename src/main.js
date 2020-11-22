@@ -1,11 +1,13 @@
-import './page/page.js'
-import './header/header.js'
-import './banner/banner.js'
-import './banner/__img/__img.js'
+import './element/element'
+import './text/text'
+import './page/page'
+import './header/header'
+import './banner/banner'
+import './banner/__img/__img'
 
-import './menu/menu.js'
+import './menu/menu'
 
-import './button/button.js'
-import './link/link.js'
+import './button/button'
+import './link/link'
 
 import './footer/footer'
