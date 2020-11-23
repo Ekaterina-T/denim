@@ -17,66 +17,65 @@
 <body class="page">
 
     <header class="header" aria-label="Site header">
-        <a href="main.html" class="link">
-            <h1 class="header__title">Nîmes</h1>
-        </a>
+        <div class="header__row header__main-row">
+            <a href="main.html" class="link"><h1 class="header__title">Nîmes</h1></a>
+        </div>
+        <div class="header__row banner">
+            <div class="banner__row banner__head">
+                <nav class="banner__item" aria-label="Navigation menu">
+                    <ul class="menu menu_horizontal menu_vertical-on-desktop menu_nav-menu">
+                        <li class="menu__item"><a href="#" class="link">Woman</a></li>
+                        <li class="menu__item"><a href="#" class="link">Man</a></li>
+                        <li class="menu__item"><a href="#" class="link">New</a></li>
+                    </ul>
+                </nav>
+                <div class="banner__item banner__item_right">
+                    <ul class="menu menu_horizontal menu_vertical-on-desktop">
+                        <li class="menu__item menu-item">
+                            <a href="#" class="link">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 17L13.1333 13.1333M15.2222 8.11111C15.2222 12.0385 12.0385 15.2222 8.1111 15.2222C4.18375 15.2222 1 12.0385 1 8.11111C1 4.18375 4.18375 1 8.1111 1C12.0385 1 15.2222 4.18375 15.2222 8.11111Z" stroke="#151C22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="element_visually-hidden">Search</span>
+                            </a>
+                        </li>
+                        <li class="menu__item menu-item">
+                            <a href="#" class="link">
+                                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1H4.27273L6.46545 11.2019C6.54027 11.5527 6.7452 11.8678 7.04436 12.092C7.34351 12.3163 7.71784 12.4354 8.10182 12.4286H16.0545C16.4385 12.4354 16.8129 12.3163 17.112 12.092C17.4112 11.8678 17.6161 11.5527 17.6909 11.2019L19 4.80952H5.09091M8.36364 16.2381C8.36364 16.6589 7.99732 17 7.54545 17C7.09359 17 6.72727 16.6589 6.72727 16.2381C6.72727 15.8173 7.09359 15.4762 7.54545 15.4762C7.99732 15.4762 8.36364 15.8173 8.36364 16.2381ZM17.3636 16.2381C17.3636 16.6589 16.9973 17 16.5455 17C16.0936 17 15.7273 16.6589 15.7273 16.2381C15.7273 15.8173 16.0936 15.4762 16.5455 15.4762C16.9973 15.4762 17.3636 15.8173 17.3636 16.2381Z" stroke="#151C22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="element_visually-hidden">Go to cart</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner__row banner__body">
+                <div class="banner__item banner__img">
+                    <div class="banner__img_diagonal_rtl"></div>
+                    <div class="banner__img_main"></div>
+                    <div class="banner__img_diagonal_ltr"></div>
+                </div>
+                <div class="banner__item banner__text">
+                    <div class="banner__item"><span class="banner__item_moto">The quality you deserve</span></div>
+                    <div class="banner__item"><span class="banner__item_title">Denim</span></div>
+                    <input type="button" class="banner__item button button_banner" value="Check new collection">
+                </div>
+            </div>
+            <div class="banner__row banner__row_bottom banner_ground">
+                <a href="#" class="banner__item link">
+                    <svg width="10" height="27" viewBox="0 0 12 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 0V17V27M6 27L11 21M6 27L1 21" stroke="#151C22" stroke-width="2"/>
+                    </svg>
+                    <span class="element_visually-hidden">Scroll down</span>
+                </a>
+                <div class="banner__item banner__item_right menu menu_vertical-on-desktop">
+                    <a href="#" class="menu__item link link_s">Instagram</a>
+                    <a href="#" class="menu__item link link_s link_fb">Facebook</a>
+                </div>
+            </div>
+        </div>
     </header>
-
-    <div class="banner">
-        <div class="banner__row banner__head">
-            <nav class="banner__item" aria-label="Navigation menu">
-                <ul class="menu menu_horizontal menu_vertical-on-desktop menu_nav-menu">
-                    <li class="menu__item"><a href="#" class="link">Woman</a></li>
-                    <li class="menu__item"><a href="#" class="link">Man</a></li>
-                    <li class="menu__item"><a href="#" class="link">New</a></li>
-                </ul>
-            </nav>
-            <div class="banner__item banner__item_right">
-                <ul class="menu menu_horizontal menu_vertical-on-desktop">
-                    <li class="menu__item menu-item">
-                        <a href="#" class="link">
-                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17 17L13.1333 13.1333M15.2222 8.11111C15.2222 12.0385 12.0385 15.2222 8.1111 15.2222C4.18375 15.2222 1 12.0385 1 8.11111C1 4.18375 4.18375 1 8.1111 1C12.0385 1 15.2222 4.18375 15.2222 8.11111Z" stroke="#151C22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span class="element_visually-hidden">Search</span>
-                        </a>
-                    </li>
-                    <li class="menu__item menu-item">
-                        <a href="#" class="link">
-                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1H4.27273L6.46545 11.2019C6.54027 11.5527 6.7452 11.8678 7.04436 12.092C7.34351 12.3163 7.71784 12.4354 8.10182 12.4286H16.0545C16.4385 12.4354 16.8129 12.3163 17.112 12.092C17.4112 11.8678 17.6161 11.5527 17.6909 11.2019L19 4.80952H5.09091M8.36364 16.2381C8.36364 16.6589 7.99732 17 7.54545 17C7.09359 17 6.72727 16.6589 6.72727 16.2381C6.72727 15.8173 7.09359 15.4762 7.54545 15.4762C7.99732 15.4762 8.36364 15.8173 8.36364 16.2381ZM17.3636 16.2381C17.3636 16.6589 16.9973 17 16.5455 17C16.0936 17 15.7273 16.6589 15.7273 16.2381C15.7273 15.8173 16.0936 15.4762 16.5455 15.4762C16.9973 15.4762 17.3636 15.8173 17.3636 16.2381Z" stroke="#151C22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span class="element_visually-hidden">Go to cart</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="banner__row banner__body">
-            <div class="banner__item banner__img">
-                <div class="banner__img_diagonal_rtl"></div>
-                <div class="banner__img_main"></div>
-                <div class="banner__img_diagonal_ltr"></div>
-            </div>
-            <div class="banner__item banner__text">
-                <div class="banner__item"><span class="banner__item_moto">The quality you deserve</span></div>
-                <div class="banner__item"><span class="banner__item_title">Denim</span></div>
-                <input type="button" class="banner__item button button_banner" value="Check new collection">
-            </div>
-        </div>
-        <div class="banner__row banner__row_bottom banner_ground">
-            <a href="#" class="banner__item link">
-                <svg width="10" height="27" viewBox="0 0 12 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 0V17V27M6 27L11 21M6 27L1 21" stroke="#151C22" stroke-width="2"/>
-                </svg>
-                <span class="element_visually-hidden">Scroll down</span>
-            </a>
-            <div class="banner__item banner__item_right menu menu_vertical-on-desktop">
-                <a href="#" class="menu__item link link_s">Instagram</a>
-                <a href="#" class="menu__item link link_s link_fb">Facebook</a>
-            </div>
-        </div>
-    </div>
 
     <main aria-label="Main content">
         <h2 class="element_visually-hidden">Main Content</h2>

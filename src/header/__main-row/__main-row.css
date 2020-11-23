@@ -1,13 +1,11 @@
-.header {
-    display: inline-block;
+.header__main-row {
     height: 57px;
     line-height: 57px;
     text-align: center;
-    width: 100%;
 }
 
 @media screen and (min-width: 570px){
-    .header {
+    .header__main-row {
         height: 67px;
         line-height: 67px;
     }

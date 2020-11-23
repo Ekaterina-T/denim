@@ -111,7 +111,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _foo
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header.css */ \"./header/header.css\");\n/* harmony import */ var _title_title_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./__title/__title.css */ \"./header/__title/__title.css\");\n;\n\n\n//# sourceURL=webpack://%5Bname%5D/./header/header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _row_row_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./__row/__row.css */ \"./header/__row/__row.css\");\n/* harmony import */ var _main_row_main_row_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./__main-row/__main-row.css */ \"./header/__main-row/__main-row.css\");\n/* harmony import */ var _title_title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./__title/__title.css */ \"./header/__title/__title.css\");\n;\n\n\n\n//# sourceURL=webpack://%5Bname%5D/./header/header.js?");
 
 /***/ }),
 
@@ -492,6 +492,32 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./header/__main-row/__main-row.css":
+/*!******************************************!*\
+  !*** ./header/__main-row/__main-row.css ***!
+  \******************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./header/__main-row/__main-row.css?");
+
+/***/ }),
+
+/***/ "./header/__row/__row.css":
+/*!********************************!*\
+  !*** ./header/__row/__row.css ***!
+  \********************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./header/__row/__row.css?");
+
+/***/ }),
+
 /***/ "./header/__title/__title.css":
 /*!************************************!*\
   !*** ./header/__title/__title.css ***!
@@ -502,19 +528,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./header/__title/__title.css?");
-
-/***/ }),
-
-/***/ "./header/header.css":
-/*!***************************!*\
-  !*** ./header/header.css ***!
-  \***************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://%5Bname%5D/./header/header.css?");
 
 /***/ }),
 

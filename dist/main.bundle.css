@@ -24,16 +24,18 @@
     margin: 0px;
     padding: 0px;
 }
-.header {
+.header__row {
     display: inline-block;
+    width: 100%;
+}
+.header__main-row {
     height: 57px;
     line-height: 57px;
     text-align: center;
-    width: 100%;
 }
 
 @media screen and (min-width: 570px){
-    .header {
+    .header__main-row {
         height: 67px;
         line-height: 67px;
     }
@@ -95,7 +97,7 @@
     }
 }
 
-@media screen and (min-width: 570px){
+@media screen and (min-width: 665px){
     .banner__body {
         position: relative;
         top: -14px; /* pic a bit  overlaps nav */
